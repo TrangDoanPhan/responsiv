@@ -130,6 +130,10 @@ header ul li a{
   font-size: 22px;
 }
 
+.section p{
+  margin: left;
+}
+
 
 .event-container {
   font-family: "Roboto", sans-serif;
