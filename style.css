@@ -330,11 +330,11 @@ header ul li a{
   font-size: 22px;
 }
 
-@media screen and (max-width: 608px) {
+@media screen and (max-width: 620px) {
   .name {
     margin-bottom: 30px;
     font-size: 22px;
-    margin-left: 5px;
+    margin-left: -20px;
   }
 }
 
