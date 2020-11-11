@@ -183,14 +183,14 @@ header ul li a{
   padding: 0 24px;
 }
 
-.event .event-right h3.event-title {
+.event .event-right h3.event-name {
   font-size: 24px;
   margin: 24px 0 10px 0;
   color: #218bbb;
   text-transform: uppercase;
 }
 
-.event .event-right .event-timing {
+.event .event-right .event-time {
   background: #fff8ba;
   display: flex;
   align-items: center;
@@ -201,7 +201,6 @@ header ul li a{
   margin: 24px 0;
   font-size: 14px;
 }
-
 @media (max-width: 550px) {
   .event {
     flex-direction: column;
@@ -220,5 +219,11 @@ header ul li a{
 
   .event .event-left .event-date {
     padding: 10px 0;
+  }
+  .h3 {
+    position: absolute;
+    top: 200px;
+    left: 150px;}
+
   }
 }
