@@ -445,7 +445,7 @@ header ul li a{
   line-height: 10px;
   position: relative;
   top: 300px;
-  display: inline-block;
+  display: flex;
   letter-spacing: 3px;
   margin-left: 550px;
 }
