@@ -493,3 +493,12 @@ form .submit{
   height: 50px;
   margin-top: 20px;
 }
+
+@media screen and (max-with: 2000px){
+  .contact-us {
+    margin-top: 200px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+  }
+}
