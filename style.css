@@ -118,6 +118,13 @@ header ul li a{
     padding-top: 40px;
     font-size: 30px;
   }
+  .logo{
+      position: absolute;
+      margin-left: -800px;
+      width: 100px;
+      height: 100px;
+      margin-top: 25px;
+    }
 }
 @media screen and (max-width: 1424px) {
   header{
@@ -139,6 +146,13 @@ header ul li a{
     padding-top: 40px;
     font-size: 30px;
   }
+  .logo{
+      position: absolute;
+      margin-left: -700px;
+      width: 100px;
+      height: 100px;
+      margin-top: 25px;
+    }
 }
 @media screen and (max-width: 1324px) {
   header{
@@ -160,6 +174,13 @@ header ul li a{
     padding-top: 40px;
     font-size: 30px;
   }
+  .logo{
+      position: absolute;
+      margin-left: -500px;
+      width: 100px;
+      height: 100px;
+      margin-top: 25px;
+    }
 }
 @media screen and (max-width: 1224px) {
   header{
@@ -181,6 +202,13 @@ header ul li a{
     padding-top: 40px;
     font-size: 30px;
   }
+  .logo{
+      position: absolute;
+      margin-left: -300px;
+      width: 100px;
+      height: 100px;
+      margin-top: 25px;
+    }
 }
 
 @media screen and (max-width: 1124px) {
@@ -203,6 +231,13 @@ header ul li a{
     padding-top: 40px;
     font-size: 30px;
   }
+  .logo{
+      position: absolute;
+      margin-left: -300px;
+      width: 100px;
+      height: 100px;
+      margin-top: 25px;
+    }
 }
 @media screen and (max-width: 1024px) {
   header{
@@ -224,8 +259,14 @@ header ul li a{
     padding-top: 40px;
     font-size: 30px;
   }
+  .logo{
+      position: absolute;
+      margin-left: -100px;
+      width: 100px;
+      height: 100px;
+      margin-top: 25px;
+    }
 }
-
 
 
 .team-section{
