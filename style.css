@@ -336,6 +336,10 @@ header ul li a{
     font-size: 22px;
     margin-left: -20px;
   }
+  .section:target{
+    height: auto;
+    margin-left: 100px;
+  }
 }
 
 
