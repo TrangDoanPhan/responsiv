@@ -332,7 +332,6 @@ header ul li a{
 
 @media screen and (max-width: 608px) {
   .name {
-    display: block;
     margin-bottom: 30px;
     font-size: 22px;
     margin-left: 5px;
