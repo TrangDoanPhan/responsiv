@@ -330,6 +330,17 @@ header ul li a{
   font-size: 22px;
 }
 
+@media screen and (max-width: 608px) {
+  .name {
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 22px;
+    margin-left: 20px;
+  }
+}
+
+
 .section p{
   text-align: center;
 }
