@@ -484,8 +484,8 @@ input{
 }
 
 form .submit{
-  background: #ff5722;
-  border-color: transparent;
+  background: #f4c510;
+  border-color: 000000;
   color: #000000;
   font-size: 20px;
   font-weight: bolder;
