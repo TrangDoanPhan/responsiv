@@ -1,22 +1,47 @@
 <!DOCTYPE html>
-<html>
-<head>
+
+<html lang="en" dir="ltr">
+
   <head>
     <meta charset="utf-8">
     <title>INOVA</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<header>
-   <ul>
-     <img src= img/logo.png class="logo" alt="INOVA">
-     <li class="navbare"><a href="index.html">Home</a></li>
-     <li><a href="members.html">Staff</a> </li>
-     <li><a href="Schedule.html">Schedule</a> </li>
-     <li><a href="contact.html">Contact</a></li>
-   </ul>
-</header>
 
-<body>
-    <h1><strong>Contact Us</strong></h1>
-</body>
+
+  </head>
+
+  <header>
+      <ul>
+        <img src= img/logo.png class="logo">
+          <li class="navbare"><a href="index.html">Home</a></li>
+          <li><a href="members.html">Staff</a> </li>
+          <li><a href="Schedule.html">Schedule</a> </li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+  </header>
+
+  <body>
+
+    <div class="contact-us">
+      <h1><strong>Contact Us</strong></h1>
+      <img href="#p1c"><img src="img/pic.f.1.jpg" width="650" height="200"></img>
+    </div>
+
+
+    <div class="contact-form">
+
+      <form id="contact-form" method="post" action="">
+        <input name="name" type="text" class="form-control" placeholder="Your name" required><br>
+        <input name="email" type="email" class="form-control" placeholder="E-mail" required><br>
+
+        <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+
+        <input type="submit" class="form-control submit" value="SEND MESSAGE">
+      </form>
+
+    </div>
+
+  </body>
+
+
 </html>

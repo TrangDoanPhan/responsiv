@@ -430,3 +430,66 @@ header ul li a{
 
   }
 }
+
+/*Contact Us*/
+
+.contact-us{
+  margin-top: 100px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+
+.contact-us h1{
+  font-size: 40px;
+  line-height: 10px;
+  position: relative;
+  top: 300px;
+  display: inline-block;
+  letter-spacing: 3px;
+  margin-left: 550px;
+}
+
+.contact-us img{
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 40px;
+  left: 325px;
+  pointer-events: none;
+  cursor: default;
+}
+
+form{
+  transition: all 4s ease-in-out;
+  position: fixed;
+  bottom: 100px;
+}
+
+.form-control{
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: #000000;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-bottom: 6px;
+  margin-left: 350px;
+}
+
+input{
+  height: 45px;
+}
+
+form .submit{
+  background: #ff5722;
+  border-color: transparent;
+  color: #000000;
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
