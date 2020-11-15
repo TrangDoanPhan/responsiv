@@ -305,76 +305,92 @@ header ul li a{
     }
 }
 
-
-.team-section{
-  overflow: hidden;
-  text-align: center;
-  padding: 80px;
+.container1{
+	max-width:1140px;
+	margin:auto;
+	position: relative;
+	min-height: 1px;
 }
 
-.team-section h1{
-  text-transform: uppercase;
-  margin-top: 70px;
-  margin-bottom: 60px;
-  color: black;
-  font-size: 40px;
+.team{
+	min-height: 100vh;
+	padding:50px 5px;
+	background-color:white;
+	float: left;
+	width: 100%;
 }
-
-
-.ps{
-  margin-bottom: 40px;
+.team h1{
+	font-size: 36px;
+	color:black;
+	margin:0;
+	padding-bottom:60px;
+	text-align: center;
 }
-
-.ps a{
-  display: inline-block;
-  margin: 0 45px;
-  width: 160px;
-  height: 160px;
-  overflow: hidden;
-  border-radius: 50%;
-  text-decoration: none;
-
+.team .card{
+	width:15%;
+	float: left;
+	padding:0px 15px;
 }
-
-.ps a img{
-  width: 100%;
-  filter: grayscale(100%);
-  transition: 0.2s all;
+.team .card .box {
+	padding:15px;
+	background-color: lightgrey;
+	border-radius:5px;
+	transition: margin 1s ease,box-shadow 1s ease;
 }
-
-.ps a:hover > img{
-  filter: none;
+.team .card .box:hover{
+	margin-top:-15px;
+	box-shadow:0px 0px 40px black;
 }
-
-.section{
-
-  display: inline-block;
-  padding: 45px;
+.team .card .box img{
+	width:150px;
+	display: block;
+	margin:10px auto;
 
 
 }
 
-.section:target{
-  height: auto;
+.team .card .box h4{
+	font-size: 21px;
+	margin:20px 0px 10px;
+	color:black;
+	text-align: center;
+	font-weight: 700;
 }
 
-.name {
-  display: inline-block;
-  margin-bottom: 30px;
-  text-align: center;
-  font-size: 22px;
+.team .card .box p{
+	color:black;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+	text-align: center;
+	padding:0px 20px;
 }
 
-.section p{
-  text-align: center;
+.team .card .box h5{
+	font-size:16px;
+	font-weight: 600;
+	color:black;
+	margin:0px 0px 15px;
+	text-align: center;
 }
 
-@media screen and (max-width: 1024px){
 
-.section{
-  padding: 45px;
-  }
+
+@media(max-width: 1222px){
+	.team .card{
+		width:50%;
+		margin-bottom:30px;
+	}
 }
+
+@media(max-width:550px){
+	.team .card{
+		width:100%;
+	}
+}
+
+
+/*referanse: https://www.youtube.com/watch?v=ceIXv1Ykb_U*/
 
 
 .event-container {
