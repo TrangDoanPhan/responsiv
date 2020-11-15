@@ -289,7 +289,7 @@ header ul li a{
 
 .ps a{
   display: inline-block;
-  margin: 0 30px;
+  margin: 0 45px;
   width: 160px;
   height: 160px;
   overflow: hidden;
@@ -309,13 +309,11 @@ header ul li a{
 }
 
 .section{
-  width: 600px;
-  margin: auto;
-  font-size: 20px;
-  color: black;
-  text-align: justify;
-  height: 0px;
-  overflow: hidden;
+
+  display: inline-block;
+  padding: 45px;
+
+
 }
 
 .section:target{
@@ -323,17 +321,21 @@ header ul li a{
 }
 
 .name {
-  display: block;
+  display: inline-block;
   margin-bottom: 30px;
   text-align: center;
   font-size: 22px;
 }
 
-
-
-
 .section p{
   text-align: center;
+}
+
+@media screen and (max-width: 1024px){
+
+.section{
+  padding: 45px;
+  }
 }
 
 
@@ -493,7 +495,7 @@ ul{
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   color: black;
-  padding-right: 20px; 
+  padding-right: 20px;
 }
 
 .contact form label{
